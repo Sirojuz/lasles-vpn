@@ -14,6 +14,8 @@
     <!-- OWL CAROUSEL -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <main class="main">
@@ -38,7 +40,7 @@
             </div>
         </header>
         <div class="main_in">
-            <div class="main_title">
+            <div data-aos="fade-right" class="main_title">
                 <h1>
                     Want anything to be easy with <b>LaslesVPN</b>.
                 </h1>
@@ -52,11 +54,11 @@
                     <span class="main_btn_hover"></span>
                 </div>
             </div>
-            <div class="main_img">
+            <div data-aos="fade-left" class="main_img">
                 <img src="./images/bg_img1.png" alt="">
             </div>
         </div>
-        <div class="main_bottom">
+        <div data-aos="fade-up" class="main_bottom">
             <div class="main_bottom_item about_users">
                 <img src="./images/user.svg" alt="">
                 <div class="main_bottom_text about_users_text">
@@ -83,10 +85,10 @@
             <span class="main_bottom_shadow"></span>
         </div>
         <section class="suggestions">
-            <div class="suggestions_img">
+            <div data-aos="fade-up-right" class="suggestions_img">
                 <img src="./images/bg_img2.png" alt="">
             </div>
-            <div class="suggestions_title">
+            <div data-aos="fade-up-left" class="suggestions_title">
                 <h1>We Provide Many Features You Can Use</h1>
                 <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
                 <div class="topics">
@@ -546,6 +548,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/aos.js"></script>
     <!-- JS LINKS -->
 </body>
 </html> 

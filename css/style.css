@@ -131,8 +131,9 @@ nav ul li:hover{
     background: #FFFFFF;
     border-radius: 10px;
     justify-content: space-between;
-    padding: 91px 67.5px;
+    padding: 67.5px 90px;
     position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 .main_bottom_item{
     display: flex;
@@ -162,7 +163,7 @@ nav ul li:hover{
     line-height: 30px;
     color: #4F5665;   
 }
-.main_bottom_shadow{
+/* .main_bottom_shadow{
     position: absolute;
     display: block;
     width: 1068.84px;
@@ -171,11 +172,11 @@ nav ul li:hover{
     opacity: 0.10;
     filter: blur(57px);
     border-radius: 10px;
-    z-index: -1;
+    z-index: -5;
     top: 70px;
     right: 0;
     left: 0;
-}
+} */
 
 /* suggestions */
 
