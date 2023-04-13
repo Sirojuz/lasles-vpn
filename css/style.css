@@ -163,29 +163,18 @@ nav ul li:hover{
     line-height: 30px;
     color: #4F5665;   
 }
-/* .main_bottom_shadow{
-    position: absolute;
-    display: block;
-    width: 1068.84px;
-    height: 189.22px;
-    background: #0D1025;
-    opacity: 0.10;
-    filter: blur(57px);
-    border-radius: 10px;
-    z-index: -5;
-    top: 70px;
-    right: 0;
-    left: 0;
-} */
 
 /* suggestions */
 
 .suggestions{
     display: flex;
     max-width: 1140px;
-    margin: 0 auto 125px auto;
+    margin: 95px auto 125px auto;
     align-items: center;
     justify-content: space-between;
+}
+.suggestions_title{
+    margin-top: 55px;
 }
 .suggestions_title h1{
     max-width: 383.41px;
